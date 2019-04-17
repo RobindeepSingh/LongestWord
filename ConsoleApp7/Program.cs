@@ -20,13 +20,14 @@ namespace ConsoleApp7
             int wordArrayLength = words.Length;
             int[] wordLength = new int[wordArrayLength];
             int x = 0;
-            string aa;
+            string aa = " " ;
             foreach(var word in words)
             {
                 if (word.Length > x)
                 {
                     input = word;
-                    n = input;
+                    aa = input;
+                    x = word.Length;
 
                 }
             }
