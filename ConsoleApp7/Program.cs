@@ -10,6 +10,23 @@ namespace ConsoleApp7
     {
         static void Main(string[] args)
         {
+            Program a = new Program();
+            Console.WriteLine("The Longest word is :");
+            Console.WriteLine(a.MyFuncionA("Ada Lovelace wrote the first alogirithm designed for processing by an Analytical Engine."));
+        }
+        public bool MyFunctionA(string input)
+        {
+            string[] words = input.Split('');
+            int wordArrayLength = words.Length;
+            int[] wordLength = new int[wordArrayLength];
+            int x = 0;
+
+            foreach(var word in words)
+            {
+
+            }
+
+            string 
         }
     }
 }
