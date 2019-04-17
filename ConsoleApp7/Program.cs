@@ -28,7 +28,6 @@ namespace ConsoleApp7
                     input = word;
                     aa = input;
                     x = word.Length;
-
                 }
             }
 
