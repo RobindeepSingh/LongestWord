@@ -26,7 +26,14 @@ namespace ConsoleApp7
 
             }
 
-            string 
+            string currentWord = words[0];
+            string nextWord;
+            string longestWord = currentWord;
+
+            for(int y = 0; y < words.Length - 1; y++)
+            {
+
+            }
         }
     }
 }
