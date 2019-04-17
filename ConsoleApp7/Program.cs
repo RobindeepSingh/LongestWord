@@ -23,7 +23,12 @@ namespace ConsoleApp7
             string aa;
             foreach(var word in words)
             {
+                if (word.Length > x)
+                {
+                    input = word;
+                    n = input;
 
+                }
             }
 
             string currentWord = words[0];
